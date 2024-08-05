@@ -2,10 +2,16 @@
 
 import numpy as np
 
-numbers = '123456'
 
 msg = print('Roll the dice!')
 number = np.random.randint(1,6)
 
-print(number,numbers)
+print(number)
+
+
+if number == 3:
+    print('You are the winner. Play again!')
+else:
+    print('You loose, try again!')
+
 
